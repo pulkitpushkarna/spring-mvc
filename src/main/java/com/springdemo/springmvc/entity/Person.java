@@ -6,6 +6,9 @@ public class Person {
     private String name;
     private String designation;
 
+    public Person() {
+    }
+
     public Person(int empId, String name, String designation) {
         this.empId = empId;
         this.name = name;
