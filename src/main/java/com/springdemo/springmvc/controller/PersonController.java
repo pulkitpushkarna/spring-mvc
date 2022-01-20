@@ -16,6 +16,7 @@ public class PersonController {
             new Person(2,"pulkit","SSE"));
 
 
+    
     @GetMapping("/personsRest")
     @ResponseBody
     public List<Person> getPersons(){
